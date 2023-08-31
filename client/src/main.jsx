@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     domain={`${import.meta.env.VITE_DOMAIN}`}
     clientId={`${import.meta.env.VITE_CLIENT_ID}`}
     authorizationParams={{
-      redirect_uri: "https://real-state-website-eight.vercel.app",
+      redirect_uri: "https://real-state-website-psi.vercel.app",
     }}
     audience="http://localhost:8000"
     scope="openid profile email"
