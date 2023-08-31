@@ -35,7 +35,7 @@ function Layout() {
         setUserDetails((prev) => ({ ...prev, token: res }));
         mutate(res)
       } catch (error) {
-        console.log(error)
+        throw error
       }
     };
 
